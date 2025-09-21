@@ -17,13 +17,6 @@ A modern, responsive web application that provides access to multiple AI models 
 - **Modern UI**: Clean, professional design with glassmorphism effects
 - **Accessibility**: WCAG compliant with keyboard navigation support
 
-### Pages & Features
-- **Home Page**: Hero section with animated elements and feature showcase
-- **Chat Interface**: Advanced chat UI with model selector and history sidebar
-- **Pricing Page**: Comprehensive pricing tiers with feature comparison
-- **About Page**: Company story, team, and mission
-- **Privacy Policy**: Detailed privacy information and data handling practices
-
 ## 🛠️ Tech Stack
 
 - **Framework**: Next.js 13+ with App Router
@@ -38,8 +31,8 @@ A modern, responsive web application that provides access to multiple AI models 
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/gamma-ai.git
-   cd gamma-ai
+   git clone https://github.com/codewithdhruba01/GamaAI.git
+   cd gamaai
    ```
 
 2. **Install dependencies**
@@ -87,16 +80,6 @@ The application requires API keys for different AI models. Add these to your `.e
 | Claude 3 Sonnet | Anthropic | Balanced performance | ANTHROPIC_API_KEY |
 | Gemini Pro | Google | Google's advanced model | GOOGLE_API_KEY |
 
-## 🎨 Customization
-
-### Theme Configuration
-
-The application uses a comprehensive design system with:
-
-- **Color Palette**: Primary (purple), secondary (teal), accent colors
-- **Typography**: Inter font family with proper hierarchy
-- **Spacing**: 8px grid system
-- **Animations**: Consistent timing and easing functions
 
 ### Adding New AI Models
 
@@ -112,7 +95,7 @@ The application uses a comprehensive design system with:
        maxTokens: 4096,
        pricing: { input: 0.001, output: 0.002 },
        capabilities: ['Feature 1', 'Feature 2'],
-       icon: '🤖'
+       icon: ''
      }
    ];
    ```
@@ -121,51 +104,13 @@ The application uses a comprehensive design system with:
 
 3. **Add the API key** to your environment variables
 
-## 📱 Responsive Design
-
-The application is fully responsive with breakpoints:
-
-- **Mobile**: < 768px
-- **Tablet**: 768px - 1024px  
-- **Desktop**: > 1024px
-
-Key responsive features:
-- Collapsible navigation on mobile
-- Adaptive chat interface
-- Touch-friendly interactions
-- Optimized typography scaling
-
-## 🔒 Privacy & Security
-
-- **Data Encryption**: All data encrypted in transit and at rest
-- **API Key Security**: Environment variables for sensitive data
-- **Privacy First**: Minimal data collection with user control
-- **GDPR Compliant**: Full privacy policy and user rights
 
 ## 🚀 Deployment
 
-### Vercel (Recommended)
+- Vercel
 
-1. **Connect your repository** to Vercel
-2. **Add environment variables** in Vercel dashboard
-3. **Deploy** - automatic deployments on push
 
-### Other Platforms
-
-The application can be deployed on any platform supporting Next.js:
-
-- **Netlify**: Use `npm run build` and deploy the `out` folder
-- **Railway**: Connect repository and add environment variables
-- **DigitalOcean**: Use App Platform with Node.js buildpack
-
-## 📊 Performance
-
-- **Lighthouse Score**: 95+ across all metrics
-- **Core Web Vitals**: Optimized for LCP, FID, and CLS
-- **Bundle Size**: Optimized with code splitting and tree shaking
-- **Caching**: Efficient caching strategies for static assets
-
-## 🧪 Testing
+## Testing
 
 ```bash
 # Run tests
@@ -178,14 +123,6 @@ npm run test:watch
 npm run test:coverage
 ```
 
-## 📈 Analytics
-
-Optional analytics integration:
-
-1. **Google Analytics**: Add `NEXT_PUBLIC_GOOGLE_ANALYTICS` to environment
-2. **Custom Events**: Track user interactions and model usage
-3. **Performance Monitoring**: Monitor API response times and errors
-
 ## 🤝 Contributing
 
 1. **Fork the repository**
@@ -194,41 +131,9 @@ Optional analytics integration:
 4. **Push to branch**: `git push origin feature/amazing-feature`
 5. **Open a Pull Request**
 
-### Development Guidelines
-
-- **Code Style**: Use Prettier and ESLint configurations
-- **Commits**: Follow conventional commit format
-- **Testing**: Add tests for new features
-- **Documentation**: Update README for significant changes
-
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🆘 Support
-
-- **Documentation**: Check this README and inline code comments
-- **Issues**: Report bugs via GitHub Issues
-- **Discussions**: Use GitHub Discussions for questions
-- **Email**: Contact support@gammaai.com
-
-## 🗺️ Roadmap
-
-### Upcoming Features
-
-- [ ] **Voice Chat**: Speech-to-text and text-to-speech integration
-- [ ] **Image Generation**: DALL-E and Midjourney integration
-- [ ] **File Upload**: Document analysis and processing
-- [ ] **Team Collaboration**: Shared workspaces and conversations
-- [ ] **API Access**: Public API for developers
-- [ ] **Mobile App**: Native iOS and Android applications
-
-### Version History
-
-- **v1.0.0**: Initial release with core chat functionality
-- **v1.1.0**: Added pricing page and improved UI
-- **v1.2.0**: Enhanced chat history and model selection
-- **v1.3.0**: Added about and privacy pages
 
 ## 🙏 Acknowledgments
 
@@ -238,9 +143,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Vercel**: For hosting and deployment platform
 - **Shadcn**: For beautiful UI components
 - **Community**: For feedback and contributions
-
----
-
-**Built with ❤️ by the Gamma AI Team**
-
-For more information, visit our [website](https://gammaai.com) or follow us on [Twitter](https://twitter.com/gammaai).
