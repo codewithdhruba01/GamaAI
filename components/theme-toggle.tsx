@@ -26,7 +26,7 @@ export function ThemeToggle() {
       variant="ghost"
       size="sm"
       onClick={() => setTheme(theme === 'light' ? 'dark' : 'light')}
-      className="w-9 h-9 rounded-full hover:bg-primary/10 transition-all duration-200"
+      className="w-10 h-10 rounded-full hover:bg-primary/10 transition-all duration-200 bg-gray-200 dark:bg-gray-900"
     >
       {theme === 'light' ? (
         <Moon className="h-4 w-4 text-primary" />

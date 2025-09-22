@@ -160,12 +160,12 @@ export default function AboutPage() {
                 Our <span className="bg-gradient-to-r from-primary to-purple-600 bg-clip-text text-transparent">Mission</span>
               </h2>
               <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-                At Gamma AI, we're building the future of human-AI collaboration. We envision a world where 
+                At Gamma AI, we are building the future of human-AI collaboration. We envision a world where 
                 advanced artificial intelligence is not just accessible to tech giants and researchers, but 
                 to creators, students, professionals, and curious minds everywhere.
               </p>
               <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-                Our platform brings together the world's most powerful AI models in one unified interface, 
+                Our platform brings together the world most powerful AI models in one unified interface, 
                 making it easy for anyone to harness the power of artificial intelligence for their unique needs.
               </p>
               <div className="flex items-center space-x-4">

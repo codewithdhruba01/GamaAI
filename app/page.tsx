@@ -61,7 +61,7 @@ export default function Home() {
               className="mb-8"
             >
               <Badge variant="secondary" className="px-4 py-2 text-sm font-medium rounded-full">
-                <Sparkles className="h-4 w-4 mr-2" />
+                <Sparkles className="h-4 w-4 mr-2 text-orange-300" />
                 Powered by Advanced AI Models
               </Badge>
             </motion.div>
