@@ -2,7 +2,7 @@
 
 A modern, responsive web application that provides access to multiple AI models through a unified chat interface. Built with Next.js, TypeScript, Tailwind CSS, and featuring beautiful animations and real-time streaming responses.
 
-## 🚀 Features
+## Features
 
 ### Core Functionality
 - **Multi-Model AI Chat**: Access GPT-4, Claude 3, Gemini Pro, and more in one interface
@@ -60,7 +60,7 @@ A modern, responsive web application that provides access to multiple AI models 
 5. **Open your browser**
    Navigate to [http://localhost:3000](http://localhost:3000)
 
-## 🔧 Configuration
+## Configuration
 
 ### API Keys Setup
 
@@ -105,7 +105,7 @@ The application requires API keys for different AI models. Add these to your `.e
 3. **Add the API key** to your environment variables
 
 
-## 🚀 Deployment
+## Deployment
 
 - Vercel
 
@@ -123,7 +123,7 @@ npm run test:watch
 npm run test:coverage
 ```
 
-## 🤝 Contributing
+## Contributing
 
 1. **Fork the repository**
 2. **Create a feature branch**: `git checkout -b feature/amazing-feature`
@@ -135,7 +135,7 @@ npm run test:coverage
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **OpenAI**: For GPT models and API
 - **Anthropic**: For Claude models
