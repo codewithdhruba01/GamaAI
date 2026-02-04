@@ -13,48 +13,48 @@ const contactMethods = [
     icon: Mail,
     title: 'Email Support',
     description: 'Get help via email within 24 hours',
-    contact: 'support@gammaai.com',
+    contact: 'contact@knowledgebase.ai',
     color: 'from-blue-500 to-cyan-500'
   },
   {
-    icon: Phone,
-    title: 'Phone Support',
-    description: 'Talk to our team directly',
-    contact: '+1 (555) 123-4567',
+    icon: CheckCircle,
+    title: 'GitHub Repository',
+    description: 'Check source code and documentation',
+    contact: 'github.com/knowledgebase-ai',
     color: 'from-green-500 to-emerald-500'
   },
   {
     icon: MessageSquare,
-    title: 'Live Chat',
-    description: 'Chat with us in real-time',
-    contact: 'Available 24/7',
+    title: 'Department',
+    description: 'Computer Science Department',
+    contact: 'Room 304, CS Block',
     color: 'from-purple-500 to-pink-500'
   },
   {
     icon: MapPin,
-    title: 'Office Location',
-    description: 'Visit our headquarters',
-    contact: 'San Francisco, CA',
+    title: 'Location',
+    description: 'College Campus',
+    contact: 'Main University Road',
     color: 'from-orange-500 to-red-500'
   }
 ];
 
 const faqs = [
   {
-    question: 'How do I get started with Gamma AI?',
-    answer: 'Simply sign up for a free account and start chatting with our AI models. No credit card required for the free tier.'
+    question: 'Is this application strictly offline?',
+    answer: 'Yes, all data processing, including OCR and AI responses, happens locally on your device to ensure complete privacy.'
   },
   {
-    question: 'Which AI models do you support?',
-    answer: 'We support GPT-4, GPT-3.5, Claude 3 (Opus & Sonnet), Gemini Pro, and more. New models are added regularly.'
+    question: 'What file formats can I upload?',
+    answer: 'We support PDF documents, images (JPG, PNG), video lectures (MP4), and YouTube links for knowledge base creation.'
   },
   {
-    question: 'Is my data secure and private?',
-    answer: 'Yes, we use enterprise-grade encryption and never store your conversations longer than necessary. Your privacy is our priority.'
+    question: 'Is my data secure?',
+    answer: 'Absolutely. Your data is stored in a local vector database and is never uploaded to any cloud server.'
   },
   {
-    question: 'Can I cancel my subscription anytime?',
-    answer: 'Absolutely! You can cancel your subscription at any time and will retain access until the end of your billing period.'
+    question: 'Does it work for any subject?',
+    answer: 'Yes, the AI adapts to whatever study materials you upload, making it suitable for any stream or subject.'
   }
 ];
 
@@ -71,14 +71,14 @@ export default function ContactPage() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
-    
+
     // Simulate form submission
     await new Promise(resolve => setTimeout(resolve, 2000));
-    
+
     setIsSubmitting(false);
     setIsSubmitted(true);
     setFormData({ name: '', email: '', subject: '', message: '' });
-    
+
     // Reset success message after 5 seconds
     setTimeout(() => setIsSubmitted(false), 5000);
   };
@@ -105,11 +105,10 @@ export default function ContactPage() {
             Get in Touch
           </Badge>
           <h1 className="text-4xl sm:text-5xl font-bold mb-6">
-            Contact <span className="bg-gradient-to-r from-primary to-purple-600 bg-clip-text text-transparent">Gamma AI</span>
+            Contact <span className="bg-gradient-to-r from-primary to-purple-600 bg-clip-text text-transparent">KnowledgeBase AI</span>
           </h1>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Have questions about our AI platform? Need help getting started? Our team is here to help you 
-            make the most of your AI experience.
+            Have questions about the project? Need technical support? We are here to help you.
           </p>
         </motion.div>
       </section>
@@ -206,7 +205,7 @@ export default function ContactPage() {
                         />
                       </div>
                     </div>
-                    
+
                     <div>
                       <label htmlFor="subject" className="block text-sm font-medium mb-2">
                         Subject *
@@ -222,7 +221,7 @@ export default function ContactPage() {
                         placeholder="What's this about?"
                       />
                     </div>
-                    
+
                     <div>
                       <label htmlFor="message" className="block text-sm font-medium mb-2">
                         Message *
@@ -238,7 +237,7 @@ export default function ContactPage() {
                         placeholder="Tell us how we can help you..."
                       />
                     </div>
-                    
+
                     <Button
                       type="submit"
                       disabled={isSubmitting}
@@ -277,7 +276,7 @@ export default function ContactPage() {
                 Frequently Asked <span className="bg-gradient-to-r from-primary to-purple-600 bg-clip-text text-transparent">Questions</span>
               </h2>
               <p className="text-muted-foreground">
-                Quick answers to common questions about Gamma AI.
+                Quick answers to common questions about the project.
               </p>
             </div>
 
