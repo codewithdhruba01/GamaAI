@@ -8,12 +8,12 @@ const footerLinks = {
   product: [
     { name: 'Chat', href: '/chat' },
     { name: 'Pricing', href: '/pricing' },
-    { name: 'Blog', href: '/blog' },
+
     { name: 'Contact', href: '/contact' },
   ],
   company: [
     { name: 'About', href: '/about' },
-    { name: 'Blog', href: '/blog' },
+
     { name: 'Careers', href: '#' },
     { name: 'Contact', href: '/contact' },
   ],

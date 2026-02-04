@@ -13,7 +13,7 @@ const navigation = [
   { name: 'Chat', href: '/chat' },
   { name: 'Pricing', href: '/pricing' },
   { name: 'About', href: '/about' },
-  { name: 'Blog', href: '/blog' },
+
   { name: 'Contact', href: '/contact' },
 ];
 
@@ -56,8 +56,8 @@ export function Navbar() {
                       variant={pathname === item.href ? 'default' : 'ghost'}
                       size="sm"
                       className={`rounded-full px-4 py-2 text-sm font-medium transition-all duration-200 ${pathname === item.href
-                          ? 'bg-primary text-primary-foreground shadow-lg'
-                          : 'hover:bg-primary/10'
+                        ? 'bg-primary text-primary-foreground shadow-lg'
+                        : 'hover:bg-primary/10'
                         }`}
                     >
                       {item.name}
