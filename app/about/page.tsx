@@ -8,85 +8,85 @@ import { Badge } from '@/components/ui/badge';
 const values = [
   {
     icon: Lightbulb,
-    title: 'Innovation First',
-    description: 'We constantly push the boundaries of what\'s possible with AI technology.',
+    title: 'Offline Capable',
+    description: 'Fully functional without internet, ensuring zero distractions.',
     color: 'from-yellow-500 to-orange-500'
   },
   {
-    icon: Users,
-    title: 'User-Centric',
-    description: 'Every feature we build is designed with our users\' needs and experiences in mind.',
+    icon: Shield,
+    title: 'Data Privacy',
+    description: 'Your notes and embeddings are stored locally, never shared.',
     color: 'from-blue-500 to-cyan-500'
   },
   {
-    icon: Shield,
-    title: 'Privacy & Security',
-    description: 'Your data and conversations are protected with enterprise-grade security.',
+    icon: Target,
+    title: 'Syllabus Focused',
+    description: 'AI responses are strictly derived from your uploaded curriculum.',
     color: 'from-green-500 to-emerald-500'
   },
   {
-    icon: Globe,
-    title: 'Accessibility',
-    description: 'Making advanced AI accessible to everyone, regardless of technical expertise.',
+    icon: Users,
+    title: 'Personalized',
+    description: 'Quizzes and study plans tailored to your own learning materials.',
     color: 'from-purple-500 to-pink-500'
   }
 ];
 
 const team = [
   {
-    name: 'Alex Chen',
-    role: 'CEO & Co-Founder',
-    bio: 'Former AI researcher at Google with 10+ years in machine learning and natural language processing.',
-    avatar: '👨‍💻'
+    name: 'FastAPI',
+    role: 'Backend Framework',
+    bio: 'High-performance web framework for building APIs with Python 3.7+.',
+    avatar: '🚀'
   },
   {
-    name: 'Sarah Johnson',
-    role: 'CTO & Co-Founder',
-    bio: 'Ex-OpenAI engineer specializing in large language models and distributed systems architecture.',
-    avatar: '👩‍💻'
+    name: 'ChromaDB',
+    role: 'Vector Database',
+    bio: 'Open-source embedding database for building AI applications with privacy.',
+    avatar: '💾'
   },
   {
-    name: 'Michael Rodriguez',
-    role: 'Head of Product',
-    bio: 'Product leader with experience at Microsoft and Anthropic, focused on AI user experiences.',
-    avatar: '👨‍🎨'
+    name: 'Whisper AI',
+    role: 'Speech Recognition',
+    bio: 'Robust speech recognition model for converting video lectures to text.',
+    avatar: '🎙️'
   },
   {
-    name: 'Emily Zhang',
-    role: 'Head of Engineering',
-    bio: 'Full-stack engineer and former tech lead at Meta, passionate about scalable AI infrastructure.',
-    avatar: '👩‍🔬'
+    name: 'RAG',
+    role: 'AI Architecture',
+    bio: 'Retrieval-Augmented Generation for accurate, context-aware responses.',
+    avatar: '🧠'
   }
 ];
 
 const milestones = [
   {
-    year: '2023',
-    title: 'Company Founded',
-    description: 'Started with a vision to democratize access to advanced AI models.'
+    year: '01',
+    title: 'Mobile App',
+    description: 'Native mobile application for studying on the go.'
   },
   {
-    year: '2023',
-    title: 'First Beta Launch',
-    description: 'Released our first beta version with GPT-3.5 integration to 100 users.'
+    year: '02',
+    title: 'Teacher Dashboard',
+    description: 'Admin interface for educators to track student progress.'
   },
   {
-    year: '2024',
-    title: 'Multi-Model Platform',
-    description: 'Expanded to support multiple AI models including Claude and Gemini.'
+    year: '03',
+    title: 'Analytics',
+    description: 'Detailed learning analytics and progress tracking systems.'
   },
   {
-    year: '2024',
-    title: '50K+ Users',
-    description: 'Reached 50,000 active users and processed over 1 million conversations.'
+    year: '04',
+    title: 'Multilingual',
+    description: 'Support for OCR and speech recognition in multiple languages.'
   }
 ];
 
 const stats = [
-  { icon: Users, value: '50K+', label: 'Active Users' },
-  { icon: Bot, value: '5+', label: 'AI Models' },
-  { icon: Zap, value: '1M+', label: 'Conversations' },
-  { icon: Award, value: '99.9%', label: 'Uptime' }
+  { icon: Users, value: 'Secure', label: 'Authentication' },
+  { icon: Bot, value: 'Smart', label: 'AI Assistant' },
+  { icon: Zap, value: 'Fast', label: 'Processing' },
+  { icon: Award, value: 'Exam', label: 'Ready' }
 ];
 
 export default function AboutPage() {
@@ -104,19 +104,18 @@ export default function AboutPage() {
           >
             <Badge variant="secondary" className="px-4 py-2 text-sm font-medium rounded-full mb-6">
               <Heart className="h-4 w-4 mr-2" />
-              About Gamma AI
+              Final Year Project
             </Badge>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6">
               <span className="bg-gradient-to-r from-primary via-purple-600 to-pink-600 bg-clip-text text-transparent">
-                Democratizing AI
+                Transforming Study
               </span>
               <br />
-              <span className="text-foreground">for Everyone</span>
+              <span className="text-foreground">Materials into Knowledge</span>
             </h1>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-              We believe that advanced AI should be accessible to everyone. Our mission is to break down 
-              the barriers between humans and artificial intelligence, creating a future where AI amplifies 
-              human potential rather than replacing it.
+              Students today face the challenge of scattered learning materials. We unify handwritten notes,
+              blackboard images, PDFs, and video lectures into a single, intelligent, and queryable knowledge base.
             </p>
           </motion.div>
         </div>
@@ -157,16 +156,15 @@ export default function AboutPage() {
               viewport={{ once: true }}
             >
               <h2 className="text-3xl sm:text-4xl font-bold mb-6">
-                Our <span className="bg-gradient-to-r from-primary to-purple-600 bg-clip-text text-transparent">Mission</span>
+                Problem <span className="bg-gradient-to-r from-primary to-purple-600 bg-clip-text text-transparent">Statement</span>
               </h2>
               <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-                At Gamma AI, we are building the future of human-AI collaboration. We envision a world where 
-                advanced artificial intelligence is not just accessible to tech giants and researchers, but 
-                to creators, students, professionals, and curious minds everywhere.
+                Study materials are often scattered across various formats—PDFs, images, YouTube links—making revision
+                inefficient. Traditional note-taking lacks semantic understanding and intelligent querying capabilities.
               </p>
               <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-                Our platform brings together the world most powerful AI models in one unified interface, 
-                making it easy for anyone to harness the power of artificial intelligence for their unique needs.
+                Our platform solves this by ensuring accurate information retrieval, syllabus syllabus-specific AI assistance,
+                and complete data privacy through local processing.
               </p>
               <div className="flex items-center space-x-4">
                 <div className="flex items-center space-x-2">
@@ -179,7 +177,7 @@ export default function AboutPage() {
                 </div>
               </div>
             </motion.div>
-            
+
             <motion.div
               initial={{ opacity: 0, x: 20 }}
               whileInView={{ opacity: 1, x: 0 }}
@@ -191,10 +189,9 @@ export default function AboutPage() {
                 <div className="absolute top-4 right-4 w-20 h-20 bg-gradient-to-br from-primary/20 to-purple-500/20 rounded-full blur-xl" />
                 <div className="absolute bottom-4 left-4 w-16 h-16 bg-gradient-to-br from-pink-500/20 to-orange-500/20 rounded-full blur-xl" />
                 <Bot className="h-24 w-24 text-primary mx-auto mb-6" />
-                <h3 className="text-xl font-semibold text-center mb-4">AI for Everyone</h3>
+                <h3 className="text-xl font-semibold text-center mb-4">Unified Learning</h3>
                 <p className="text-muted-foreground text-center">
-                  Breaking down barriers and making advanced AI accessible to all users, 
-                  regardless of technical background.
+                  Bringing all your study resources into one searchable, intelligent interface.
                 </p>
               </div>
             </motion.div>
@@ -213,10 +210,10 @@ export default function AboutPage() {
             className="text-center mb-16"
           >
             <h2 className="text-3xl sm:text-4xl font-bold mb-4">
-              Our <span className="bg-gradient-to-r from-primary to-purple-600 bg-clip-text text-transparent">Values</span>
+              System <span className="bg-gradient-to-r from-primary to-purple-600 bg-clip-text text-transparent">Advantages</span>
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              The principles that guide everything we do at Gamma AI.
+              Why our privacy-first, offline-capable approach is superior for education.
             </p>
           </motion.div>
 
@@ -257,16 +254,16 @@ export default function AboutPage() {
             className="text-center mb-16"
           >
             <h2 className="text-3xl sm:text-4xl font-bold mb-4">
-              Our <span className="bg-gradient-to-r from-primary to-purple-600 bg-clip-text text-transparent">Journey</span>
+              Future <span className="bg-gradient-to-r from-primary to-purple-600 bg-clip-text text-transparent">Enhancements</span>
             </h2>
             <p className="text-xl text-muted-foreground">
-              Key milestones in our mission to democratize AI.
+              Our roadmap for expanding the platform's capabilities.
             </p>
           </motion.div>
 
           <div className="relative">
             <div className="absolute left-8 top-0 bottom-0 w-0.5 bg-gradient-to-b from-primary to-purple-600" />
-            
+
             {milestones.map((milestone, index) => (
               <motion.div
                 key={milestone.year}
@@ -300,10 +297,10 @@ export default function AboutPage() {
             className="text-center mb-16"
           >
             <h2 className="text-3xl sm:text-4xl font-bold mb-4">
-              Meet Our <span className="bg-gradient-to-r from-primary to-purple-600 bg-clip-text text-transparent">Team</span>
+              Technology <span className="bg-gradient-to-r from-primary to-purple-600 bg-clip-text text-transparent">Stack</span>
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              The passionate individuals behind Gamma AI, working to make advanced AI accessible to everyone.
+              Built with cutting-edge open source technologies to ensure performance and privacy.
             </p>
           </motion.div>
 
@@ -341,11 +338,11 @@ export default function AboutPage() {
             viewport={{ once: true }}
           >
             <h2 className="text-3xl sm:text-4xl font-bold mb-6">
-              Join Us on This Journey
+              Start Your Exam Prep Today
             </h2>
             <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-              Be part of the AI revolution. Experience the future of human-AI collaboration 
-              and help us build a more accessible, intelligent world.
+              Experience the power of organized, intelligent tuition.
+              Upload your materials and let the AI build your knowledge base.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <motion.a

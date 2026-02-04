@@ -41,12 +41,11 @@ export function Footer() {
             <Link href="/" className="flex items-center space-x-2 mb-4">
               <Bot className="h-8 w-8 text-primary" />
               <span className="text-xl font-bold bg-gradient-to-r from-primary to-purple-600 bg-clip-text text-transparent">
-                Gamma AI
+                KnowledgeBase AI
               </span>
             </Link>
             <p className="text-muted-foreground mb-4 max-w-md">
-              Experience the future of AI conversation with multiple advanced models. 
-              Chat, create, and explore with the world's most powerful AI assistants.
+              A secure, offline-capable, AI-powered system for organizing study materials and optimizing exam preparation.
             </p>
             <div className="flex space-x-4">
               {socialLinks.map((item) => (
@@ -115,7 +114,7 @@ export function Footer() {
 
         <div className="mt-8 pt-8 border-t flex flex-col sm:flex-row justify-between items-center">
           <p className="text-muted-foreground text-sm">
-            © 2024 Gamma AI. All rights reserved.
+            © 2026 KnowledgeBase AI. All rights reserved.
           </p>
           <div className="flex items-center space-x-1 text-muted-foreground text-sm mt-2 sm:mt-0">
             <span>Made with</span>

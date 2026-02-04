@@ -10,35 +10,35 @@ import { Badge } from '@/components/ui/badge';
 const features = [
   {
     icon: Bot,
-    title: 'Multiple AI Models',
-    description: 'Access GPT-4, Claude, Gemini, and more in one unified interface',
+    title: 'Multi-Format Data',
+    description: 'Upload images, PDFs, videos, and YouTube links to build your personal knowledge base.',
     color: 'from-blue-500 to-cyan-500'
   },
   {
     icon: Zap,
-    title: 'Real-time Streaming',
-    description: 'Get instant responses with real-time streaming technology',
+    title: 'Intelligent Processing',
+    description: 'Advanced OCR and Speech-to-Text extraction for seamless content digitisation.',
     color: 'from-yellow-500 to-orange-500'
   },
   {
     icon: Shield,
     title: 'Privacy First',
-    description: 'Your conversations are secure and private by design',
+    description: 'Local vector database ensures your data stays private and offline-accessible.',
     color: 'from-green-500 to-emerald-500'
   },
   {
-    icon: Globe,
-    title: 'Always Available',
-    description: '24/7 access to the world\'s most advanced AI assistants',
+    icon: Sparkles,
+    title: 'Exam Preparation',
+    description: 'Generate syllabus-focused quizzes and answers strictly from your study materials.',
     color: 'from-purple-500 to-pink-500'
   }
 ];
 
 const stats = [
-  { icon: Users, value: '50K+', label: 'Active Users' },
-  { icon: MessageSquare, value: '1M+', label: 'Conversations' },
-  { icon: TrendingUp, value: '99.9%', label: 'Uptime' },
-  { icon: Sparkles, value: '5+', label: 'AI Models' }
+  { icon: Shield, value: '100%', label: 'Data Privacy' },
+  { icon: MessageSquare, value: 'Syllabus', label: 'Focused Answers' },
+  { icon: Zap, value: 'Offline', label: 'Capabilities' },
+  { icon: Sparkles, value: 'AI', label: 'Powered Learning' }
 ];
 
 export default function Home() {
@@ -62,7 +62,7 @@ export default function Home() {
             >
               <Badge variant="secondary" className="px-4 py-2 text-sm font-medium rounded-full">
                 <Sparkles className="h-4 w-4 mr-2 text-orange-300" />
-                Powered by Advanced AI Models
+                Final Year Project
               </Badge>
             </motion.div>
 
@@ -73,10 +73,10 @@ export default function Home() {
               className="text-4xl sm:text-6xl lg:text-7xl font-bold tracking-tight mb-6"
             >
               <span className="bg-gradient-to-r from-primary via-purple-600 to-pink-600 bg-clip-text text-transparent">
-                Experience the Future
+                AI-Powered Personal
               </span>
               <br />
-              <span className="text-foreground">of AI Conversation</span>
+              <span className="text-foreground">Knowledge Base</span>
             </motion.h1>
 
             <motion.p
@@ -85,8 +85,7 @@ export default function Home() {
               transition={{ delay: 0.4, duration: 0.8 }}
               className="text-xl text-muted-foreground mb-8 max-w-3xl mx-auto leading-relaxed"
             >
-              Chat with multiple advanced AI models including GPT-4, Claude, and Gemini. 
-              Get instant, intelligent responses for any task - from creative writing to complex problem solving.
+              A secure, offline-capable, AI-powered system that organizes your handwritten notes, PDFs, and videos into a structured knowledge base for efficient exam preparation.
             </motion.p>
 
             <motion.div
@@ -97,7 +96,7 @@ export default function Home() {
             >
               <Link href="/chat">
                 <Button size="lg" className="text-lg px-8 py-6 rounded-2xl bg-gradient-to-r from-primary to-purple-600 hover:from-primary/90 hover:to-purple-600/90 shadow-xl hover:shadow-2xl transition-all duration-300">
-                  Start Chatting Now
+                  Start Building Now
                   <ArrowRight className="ml-2 h-5 w-5" />
                 </Button>
               </Link>
@@ -162,10 +161,10 @@ export default function Home() {
             className="text-center mb-16"
           >
             <h2 className="text-3xl sm:text-4xl font-bold mb-4">
-              Why Choose <span className="bg-gradient-to-r from-primary to-purple-600 bg-clip-text text-transparent">Gamma AI</span>?
+              Why Choose <span className="bg-gradient-to-r from-primary to-purple-600 bg-clip-text text-transparent">KnowledgeBase AI</span>?
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Experience the next generation of AI conversation with cutting-edge features designed for modern users.
+              Organize, understand, and query personal study data intelligently while ensuring privacy and syllabus accuracy.
             </p>
           </motion.div>
 
@@ -205,11 +204,10 @@ export default function Home() {
             viewport={{ once: true }}
           >
             <h2 className="text-3xl sm:text-4xl font-bold mb-6">
-              Ready to Transform Your AI Experience?
+              Ready to Master Your Exams?
             </h2>
             <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-              Join thousands of users who are already experiencing the future of AI conversation. 
-              Start your journey today with our advanced AI models.
+              Stop struggling with scattered notes. Build your private, structured, and intelligent knowledge base today.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/chat">

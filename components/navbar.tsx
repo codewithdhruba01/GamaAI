@@ -37,7 +37,7 @@ export function Navbar() {
                 <Sparkles className="h-4 w-4 text-yellow-500 absolute -top-1 -right-3 animate-pulse" />
               </div>
               <span className="text-xl font-bold bg-gradient-to-r from-primary to-purple-600 bg-clip-text text-transparent">
-                Gamma AI
+                KnowledgeBase AI
               </span>
             </motion.div>
           </Link>
@@ -55,11 +55,10 @@ export function Navbar() {
                     <Button
                       variant={pathname === item.href ? 'default' : 'ghost'}
                       size="sm"
-                      className={`rounded-full px-4 py-2 text-sm font-medium transition-all duration-200 ${
-                        pathname === item.href
+                      className={`rounded-full px-4 py-2 text-sm font-medium transition-all duration-200 ${pathname === item.href
                           ? 'bg-primary text-primary-foreground shadow-lg'
                           : 'hover:bg-primary/10'
-                      }`}
+                        }`}
                     >
                       {item.name}
                     </Button>
@@ -80,7 +79,7 @@ export function Navbar() {
           {/* Right side */}
           <div className="flex items-center space-x-2">
             <ThemeToggle />
-            
+
             {/* Mobile menu button */}
             <Button
               variant="ghost"
